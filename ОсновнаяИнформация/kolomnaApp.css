@@ -1,0 +1,516 @@
+
+a { 
+    text-decoration: none; 
+} 
+
+a:hover { 
+    text-decoration: none;
+   } 
+ 
+ body
+ {
+    margin:40px;
+ }
+ 
+ .background
+{
+   
+    display: inline-block;
+    width:100%;
+    background: center/cover url("Group 3.png");
+}
+
+nav #russia
+{
+    font-family: 'Montserrat';
+    font-style: normal;
+    padding-top: 10px;
+    margin: auto;
+    color: #F5F5F5;
+}
+
+section {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+nav #kolomna
+{
+    font-family: 'Montserrat';
+    font-style: normal;
+    color: #F5F5F5;
+    margin: initial;
+}
+
+#headerDiv
+{
+    margin-left:60px;
+    margin-top: 40px;
+    margin-right:60px;
+
+}
+
+nav #navp
+{
+    font-family: 'Montserrat';
+   font-style: normal;
+    box-sizing: border-box;
+    color: #F5F5F5;
+}
+
+#headerButton
+{
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+#headerButton button
+{
+border: none;
+    background: none;
+
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 36px;
+
+    
+    
+    color: #F5F5F5;
+}
+
+#sectionP
+{
+    font-family: 'Montserrat';
+    font-style: normal;
+    color: #000000;
+}
+
+/*
+.SectionContainer
+{
+    display:flex;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+    flex-direction: row;
+}
+*/
+.SectionContainer div
+{
+    margin: 10px;    
+}
+
+.infrostructure
+{
+    line-height: 1.3;
+    font-family: 'Montserrat';
+    font-style: normal;
+    margin-left:40px;
+    margin-right: 40px;
+}
+
+.thirdSection div
+{
+    margin: 10px;    
+}
+
+#castle 
+{
+    border-width:thick;
+    border-color: black;
+    border-right: solid;
+    padding-right: 100px;
+    box-sizing: content-box;
+    height: auto; 
+    width: auto; 
+    max-width: 400px; 
+}
+
+#third_sec_border
+{ 
+    display:flex;
+    margin:10px;
+    background-color: #272727;
+    box-sizing: content-box;
+    width:60%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+#third_sec_border div
+
+{
+    width: 100%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 20px;
+    color: #F5F5F5;
+    
+
+}
+
+#road
+{
+    border-width:thick;
+    border-color: #272727;
+    border-left: solid;
+    border-top: solid;
+    box-sizing: content-box;
+
+}
+
+#text_border1
+{
+    line-height: 2;
+    padding-left: 30px;
+}
+
+#text_border2
+{
+    padding-right: 50px;
+    line-height: 1.3;
+}
+
+#text_border3
+{
+    border-top: solid;
+    padding: 40;
+
+    border-width:1px;
+    border-color: #ffffff;
+}
+
+
+@media (min-width:500px)
+{
+
+    .background
+{
+    height: 335px;
+}
+
+    
+
+    nav #russia
+    {
+      font-size:small;
+    }
+
+     nav #kolomna
+    {
+         font-size: xx-large;
+
+    }
+
+    nav #navp
+{
+    font-size: 10px;
+
+    padding-right: 469px;
+    margin-top: 22.5px;
+}
+
+#headerButton button
+{
+    padding-top: 20px;
+    font-size: 24.12px;
+}
+
+#sectionP
+{
+    line-height: 1.3;
+    font-size: 10px;
+
+}
+
+#church
+{
+    height: auto; 
+    width: auto; 
+    max-width:900px; 
+    
+}
+
+.infrostructure
+{
+    font-size: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+.thirdSection
+{
+    display:flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
+    flex-direction: row;
+}
+#castle 
+{
+    height: auto; 
+    width: auto; 
+    max-width: 268px; 
+}
+
+#third_sec_border div
+
+{
+    width: 100%;
+    font-size: 12px;
+}
+
+#text_border3
+{
+    border-top: solid;
+    padding: 30px;
+
+    border-width:1px;
+    border-color: #ffffff;
+}
+
+#lake
+{
+    margin-right: 33.5px;
+    height: auto; 
+    width: auto; 
+    max-width: 455.6px; 
+}
+
+#road
+{
+
+    height: auto; 
+    width: auto; 
+    max-width: 482.3px; 
+    max-height: 247.23px;
+    padding-left: 53.6px;
+    padding-top: 53.6px;
+}
+
+}
+
+
+
+@media (min-width:1000px)
+{
+    section
+{
+    display:flex;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+    flex-direction: row;
+}
+
+    .background
+{
+   
+    height: 335px;
+    max-width: 1000px;
+}
+
+    
+
+    nav #russia
+    {
+      font-size:small;
+    }
+
+     nav #kolomna
+    {
+         font-size: xx-large;
+
+    }
+
+    nav #navp
+{
+    font-size: 10px;
+
+    padding-right: 469px;
+    margin-top: 33.5px;
+}
+
+#headerButton button
+{
+    
+    font-size: 24.12px;
+}
+
+#sectionP
+{
+    line-height: 1.3;
+    font-size: 12px;
+
+}
+
+#church
+{
+    height: auto; 
+    width: auto; 
+    max-width:450px; 
+    
+}
+
+.infrostructure
+{
+    font-size: 12px;
+    
+}
+
+#castle 
+{
+    height: auto; 
+    width: auto; 
+    max-width: 268px; 
+}
+
+#third_sec_border div
+
+{
+    width: 100%;
+    font-size: 12px;
+}
+
+#text_border3
+{
+    border-top: solid;
+    padding: 30px;
+
+    border-width:1px;
+    border-color: #ffffff;
+}
+
+#lake
+{
+    margin-right: 33.5px;
+    height: auto; 
+    width: auto; 
+    max-width: 455.6px; 
+}
+
+#road
+{
+
+    height: auto; 
+    width: auto; 
+    max-width: 482.3px; 
+    max-height: 247.23px;
+    padding-left: 53.6px;
+    padding-top: 53.6px;
+}
+
+}
+
+@media (min-width:1496px)
+{
+    
+    section
+{
+    display:flex;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+    flex-direction: row;
+}
+
+    .background
+{
+   
+    
+    height: 500px;
+    max-width: 1500px;
+}
+
+    nav #russia
+    {
+      font-size:medium;
+    }
+
+     nav #kolomna
+    {
+         font-size: xxx-large;
+
+    }
+
+    nav #navp
+    {
+        font-size: 15px;
+        padding-right: 700px;
+        margin-top: 50px;
+    }
+
+    #headerButton button
+    {
+        margin:40px;
+        font-size: 36px;
+    }
+
+    #sectionP
+{
+    line-height: 1.3;
+    font-size: 20px;
+
+}
+
+#church
+{
+    height: auto; 
+    width: auto; 
+    max-width: 680px; 
+    
+}
+
+.infrostructure
+{ 
+    font-size: 20px;
+}
+
+#castle 
+{
+    height: auto; 
+    width: auto; 
+    max-width: 400px; 
+}
+
+#third_sec_border div
+
+{
+    width: 100%;
+    font-size: 20px;
+}
+
+#text_border3
+{
+    margin-top: 50px;
+    border-top: solid;
+    padding: 40;
+
+    border-width:1px;
+    border-color: #ffffff;
+}
+
+#lake
+{
+    margin-right: 50px;
+    height: auto; 
+    width: auto; 
+    max-width: 680px; 
+}
+
+#road
+{
+    padding-left: 80px;
+    padding-top: 80px;
+    height: auto; 
+    width: auto; 
+    max-width: 720px; 
+    max-height: 369;
+}
+
+}
